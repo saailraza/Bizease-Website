@@ -1,0 +1,21 @@
+# Netlify / Cloudflare Pages headers (ignored by other hosts)
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://images.unsplash.com; connect-src 'self' https://formsubmit.co https://api.bizeasesolutions.online; form-action 'self' https://formsubmit.co; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests
+/logo.png
+  Cache-Control: public, max-age=2592000
+/og-image.png
+  Cache-Control: public, max-age=2592000
+/favicon-*.png
+  Cache-Control: public, max-age=2592000
+/apple-touch-icon.png
+  Cache-Control: public, max-age=2592000
+/apps-config.js
+  Cache-Control: no-cache
+/bizbot-config.json
+  Cache-Control: no-cache
